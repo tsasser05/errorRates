@@ -24,7 +24,6 @@ my $stddev_multiplier = 3;
 sub new {
   my ($type, $deviations, $interval, $debug) = @_;
 
-  # TBD ... not really going to work
   if (! defined $deviations) {
     $deviations = 3;
 
